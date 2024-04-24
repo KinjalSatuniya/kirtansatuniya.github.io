@@ -11,7 +11,7 @@ from urllib.parse import urljoin
 app = Flask(__name__)
 
 # Unique name for the website
-WEBSITE_URL = "https://kirtan.github.io/"
+WEBSITE_URL = "https://kirtansatuniya.github.io/"
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
